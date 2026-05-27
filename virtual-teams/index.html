@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+
+      #slide1,
+      #slide2,
+      #slide3,
+      #slide4,
+      #slide5 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1920px;
+        height: 1080px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="118"
+      data-width="1920"
+      data-height="1080"
+    >
+      <!-- Slide 1: Context vs. Persona in AI (0s – 30s) -->
+      <img
+        id="slide1"
+        class="clip"
+        data-start="0"
+        data-duration="30"
+        data-track-index="0"
+        src="assets/slides/Slide1.PNG"
+        alt="Context vs. Persona in AI"
+      />
+
+      <!-- Slide 2: Working with Context vs. Working with a Persona (30s – 52s) -->
+      <img
+        id="slide2"
+        class="clip"
+        data-start="30"
+        data-duration="22"
+        data-track-index="0"
+        src="assets/slides/Slide2.PNG"
+        alt="Working with Context vs. Working with a Persona"
+      />
+
+      <!-- Slide 3: Context sees everything · Persona gets what it needs (52s – 74s) -->
+      <img
+        id="slide3"
+        class="clip"
+        data-start="52"
+        data-duration="22"
+        data-track-index="0"
+        src="assets/slides/Slide3.PNG"
+        alt="Context sees everything · Persona gets what it needs"
+      />
+
+      <!-- Slide 4: Persona Handoff · AI Agents Collaborating (74s – 96s) -->
+      <img
+        id="slide4"
+        class="clip"
+        data-start="74"
+        data-duration="22"
+        data-track-index="0"
+        src="assets/slides/Slide4.PNG"
+        alt="Persona Handoff · AI Agents Collaborating"
+      />
+
+      <!-- Slide 5: Our Team — demo introduction (96s – 118s) -->
+      <img
+        id="slide5"
+        class="clip"
+        data-start="96"
+        data-duration="22"
+        data-track-index="0"
+        src="assets/slides/Slide5.PNG"
+        alt="Our Team"
+      />
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Slide 1 entrance — fade in
+      tl.from("#slide1", { opacity: 0, duration: 0.8, ease: "power2.out" }, 0.2);
+
+      // Slide 2 entrance — fade in
+      tl.from("#slide2", { opacity: 0, duration: 0.8, ease: "power2.out" }, 30.2);
+
+      // Slide 3 entrance — fade in
+      tl.from("#slide3", { opacity: 0, duration: 0.8, ease: "power2.out" }, 52.2);
+
+      // Slide 4 entrance — fade in
+      tl.from("#slide4", { opacity: 0, duration: 0.8, ease: "power2.out" }, 74.2);
+
+      // Slide 5 entrance — fade in
+      tl.from("#slide5", { opacity: 0, duration: 0.8, ease: "power2.out" }, 96.2);
+
+      // Slide 5 exit — fade to black (final scene only)
+      tl.to("#slide5", { opacity: 0, duration: 1.2, ease: "power2.in" }, 116.8);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
