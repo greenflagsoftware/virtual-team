@@ -38,64 +38,109 @@
       id="root"
       data-composition-id="main"
       data-start="0"
-      data-duration="118"
+      data-duration="371"
       data-width="1920"
       data-height="1080"
     >
-      <!-- Slide 1: Context vs. Persona in AI (0s – 30s) -->
+      <!-- Slide 1: Context vs. Persona in AI (0s – 74s) -->
       <img
         id="slide1"
         class="clip"
         data-start="0"
-        data-duration="30"
+        data-duration="74"
         data-track-index="0"
         src="assets/slides/Slide1.PNG"
         alt="Context vs. Persona in AI"
       />
+      <audio
+        id="narration-slide1"
+        class="clip"
+        data-start="0"
+        data-duration="74"
+        data-track-index="1"
+        data-volume="1"
+        src="assets/audio/slide1-intro.webm"
+      ></audio>
 
-      <!-- Slide 2: Working with Context vs. Working with a Persona (30s – 52s) -->
+      <!-- Slide 2: Working with Context vs. Working with a Persona (74s – 141s) -->
       <img
         id="slide2"
         class="clip"
-        data-start="30"
-        data-duration="22"
+        data-start="74"
+        data-duration="67"
         data-track-index="0"
         src="assets/slides/Slide2.PNG"
         alt="Working with Context vs. Working with a Persona"
       />
+      <audio
+        id="narration-slide2"
+        class="clip"
+        data-start="74"
+        data-duration="67"
+        data-track-index="1"
+        data-volume="1"
+        src="assets/audio/slide2.webm"
+      ></audio>
 
-      <!-- Slide 3: Context sees everything · Persona gets what it needs (52s – 74s) -->
+      <!-- Slide 3: Context sees everything · Persona gets what it needs (141s – 219s) -->
       <img
         id="slide3"
         class="clip"
-        data-start="52"
-        data-duration="22"
+        data-start="141"
+        data-duration="78"
         data-track-index="0"
         src="assets/slides/Slide3.PNG"
         alt="Context sees everything · Persona gets what it needs"
       />
+      <audio
+        id="narration-slide3"
+        class="clip"
+        data-start="141"
+        data-duration="78"
+        data-track-index="1"
+        data-volume="1"
+        src="assets/audio/slide3.webm"
+      ></audio>
 
-      <!-- Slide 4: Persona Handoff · AI Agents Collaborating (74s – 96s) -->
+      <!-- Slide 4: Persona Handoff · AI Agents Collaborating (219s – 287s) -->
       <img
         id="slide4"
         class="clip"
-        data-start="74"
-        data-duration="22"
+        data-start="219"
+        data-duration="68"
         data-track-index="0"
         src="assets/slides/Slide4.PNG"
         alt="Persona Handoff · AI Agents Collaborating"
       />
+      <audio
+        id="narration-slide4"
+        class="clip"
+        data-start="219"
+        data-duration="68"
+        data-track-index="1"
+        data-volume="1"
+        src="assets/audio/slide4.webm"
+      ></audio>
 
-      <!-- Slide 5: Our Team — demo introduction (96s – 118s) -->
+      <!-- Slide 5: Our Team — demo introduction (287s – 371s) -->
       <img
         id="slide5"
         class="clip"
-        data-start="96"
-        data-duration="22"
+        data-start="287"
+        data-duration="84"
         data-track-index="0"
         src="assets/slides/Slide5.PNG"
         alt="Our Team"
       />
+      <audio
+        id="narration-slide5"
+        class="clip"
+        data-start="287"
+        data-duration="84"
+        data-track-index="1"
+        data-volume="1"
+        src="assets/audio/slide5.webm"
+      ></audio>
     </div>
 
     <script>
@@ -106,19 +151,19 @@
       tl.from("#slide1", { opacity: 0, duration: 0.8, ease: "power2.out" }, 0.2);
 
       // Slide 2 entrance — fade in
-      tl.from("#slide2", { opacity: 0, duration: 0.8, ease: "power2.out" }, 30.2);
+      tl.from("#slide2", { opacity: 0, duration: 0.8, ease: "power2.out" }, 74.2);
 
       // Slide 3 entrance — fade in
-      tl.from("#slide3", { opacity: 0, duration: 0.8, ease: "power2.out" }, 52.2);
+      tl.from("#slide3", { opacity: 0, duration: 0.8, ease: "power2.out" }, 141.2);
 
       // Slide 4 entrance — fade in
-      tl.from("#slide4", { opacity: 0, duration: 0.8, ease: "power2.out" }, 74.2);
+      tl.from("#slide4", { opacity: 0, duration: 0.8, ease: "power2.out" }, 219.2);
 
       // Slide 5 entrance — fade in
-      tl.from("#slide5", { opacity: 0, duration: 0.8, ease: "power2.out" }, 96.2);
+      tl.from("#slide5", { opacity: 0, duration: 0.8, ease: "power2.out" }, 287.2);
 
       // Slide 5 exit — fade to black (final scene only)
-      tl.to("#slide5", { opacity: 0, duration: 1.2, ease: "power2.in" }, 116.8);
+      tl.to("#slide5", { opacity: 0, duration: 1.2, ease: "power2.in" }, 369.8);
 
       window.__timelines["main"] = tl;
     </script>

@@ -1,2 +1,5 @@
 # Memory / search index
 memsearch/
+
+# HyperFrames generated cache
+virtual-teams/.waveform-cache/

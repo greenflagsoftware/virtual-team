@@ -1,0 +1,11 @@
+As you start working with AI, one of the first things you'll do is build up a library of skills — custom instructions that tell the model how to handle specific tasks.
+
+At first, it's manageable. But over time, that library grows. You end up with dozens of skills, each designed for a different purpose, and keeping track of which skill does what — and when to use it — starts to feel like learning a new programming language. The tool that was supposed to simplify your work starts adding its own layer of complexity.
+
+Here's the thing: humans aren't wired to work that way. When you go to the office, you don't consult a manual to figure out who to talk to. You just know. You know who handles the numbers, who owns the product roadmap, who to call when something breaks. You communicate naturally, because you know the people.
+
+That's the idea behind AI personas.
+
+Instead of managing a growing catalog of skills, you create individuals — each one responsible for a defined area, with their own name, role, and way of working. Just like a real team. When you need something done, you don't look up a skill. You just go to the right person.
+
+That's what this presentation is about: building a virtual team with AI personas, and getting back to a way of working that actually feels natural.
