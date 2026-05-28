@@ -3,3 +3,6 @@ memsearch/
 
 # HyperFrames generated cache
 virtual-teams/.waveform-cache/
+
+# Rendered video output
+virtual-teams/renders/
