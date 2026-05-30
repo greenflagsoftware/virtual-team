@@ -1,19 +1,19 @@
-# Slide 3 Narration
+# Intro Narration
 
-<!-- slide: Slide3 -->
+<!-- slide: Slide1 -->
 
 ---
 
-Now let's look under the hood at what's actually different between working with context and working with a persona.
+As you start working with AI, one of the first things you'll do is build up a library of skills — custom instructions that tell the model how to handle specific tasks.
 
-When you're working with context, the model has full access to everything — every skill in the inventory. Summarise, translate, classify, write code, debug, reformat, search, brainstorm — all of it is on the table, every single time you send a message. The model draws from the entire skill library on every turn.
+At first, it's manageable. But over time, that library grows. You end up with dozens of skills, each designed for a different purpose, and keeping track of which skill does what — and when to use it — starts to feel like learning a new programming language. The tool that was supposed to simplify your work starts adding its own layer of complexity.
 
-That sounds powerful, and it is. But it also means the model is always making a choice about which skills are relevant. And when your library is large, that's a lot of surface area.
+Here's the thing: humans aren't wired to work that way. When you go to the office, you don't consult a manual to figure out who to talk to. You just know. You know who handles the numbers, who owns the product roadmap, who to call when something breaks. You communicate naturally, because you know the people.
 
-A persona works differently. When you configure a persona, you assign it a specific set of skills — just what that role needs to do its job. A Sales Assistant, for example, gets summarise, draft email, brainstorm, classify, synthesise, and plan. That's the toolkit. Write code, debug, translate, search, reformat, extract — those aren't part of this role, so they're simply not available to it.
+That's the idea behind AI personas.
 
-This is the key idea: the persona is pre-configured. It doesn't have to decide what it can do — that's already been decided. It just does its job.
+Instead of managing a growing catalog of skills, you create individuals — each one responsible for a defined area, with their own name, role, and way of working. Just like a real team. When you need something done, you don't look up a skill. You just go to the right person.
 
-The result is a more focused, more predictable collaborator. You know what Dana can do because you defined it. And that's exactly how it works on a real team.
+That's what this presentation is about: building a virtual team with AI personas, and getting back to a way of working that actually feels natural.
 
 ---

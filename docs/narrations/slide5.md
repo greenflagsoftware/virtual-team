@@ -1,27 +1,23 @@
-# Slide 5 Narration
+# Slide 4 Narration
 
-<!-- slide: Slide5 -->
+<!-- slide: Slide4 -->
 
 ---
 
-So let's meet the team.
+Here's where it starts to feel like a real team.
 
-This is who we're going to build today — six AI personas, each with a defined role and a set of responsibilities, working together just like a real team would.
+Once you have multiple personas set up, they don't just work in isolation — they can hand off to each other. This is what we mean by AI agents collaborating.
 
-Nichole is our Administrative Assistant. She handles the day-to-day: todo lists, reminders, schedules, appointments — the things that keep everyone organized.
+Take a look at this example. We have three personas: Clair in IT Support, Steve the Sysadmin, and Nichole in Onboarding.
 
-Brad is our Senior Software Engineer. Software development, repository management, architecture, infrastructure, security — Brad is the technical backbone of the team.
+A new employee needs to get set up. Clair is the first point of contact — that's her role. But setting up a login? That's not in Clair's skill set. That belongs to Steve. So Clair routes the request: *"Can you set up my login?"*
 
-Sam is the Data Engineer. Databases, storage, queries, reports — if it involves data, Sam owns it.
+Steve picks it up. He handles it — *"Sure"* — does the work — *"Done."*
 
-Destiny is our Skills Administrator. This is a unique role specific to an AI team — Destiny is responsible for continuous improvement of the AI tooling itself. Skills, agents, personas — she keeps the team sharp.
+Now Clair knows the login is ready. And the next step isn't in Steve's lane either. Nichole handles onboarding notifications. So Clair passes it along: *"Ok I am set up — send the onboarded notification."*
 
-Clair handles Records Management. She's the single source of truth for the team — documentation, business knowledge, secrets, anything that needs to be remembered and referenced later.
+Three personas. One seamless workflow. No one did anything outside their role.
 
-And Jay is our Project Manager. Backlogs, SCRUM, work items, bugs, scheduling, prioritization — Jay keeps everything moving.
-
-Six people. Six clear lanes. And in just a moment, we're going to use Claude Code to build them — creating the personas, defining the skills, and standing up a working virtual team right here in front of you.
-
-Let's get started.
+That's the power of the handoff. Each persona knows what it owns, and when something falls outside those boundaries, it moves to the right person automatically. Just like it would on your team.
 
 ---

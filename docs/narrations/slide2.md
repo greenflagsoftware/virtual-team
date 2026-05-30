@@ -4,18 +4,16 @@
 
 ---
 
-Let's look at what it actually looks like to work with an AI agent using just the context window.
+Before we go any further, I want to be clear about something: there is no magic happening here.
 
-Say you need a report on your top-selling products. Here's what that workflow looks like today. You upload an Excel spreadsheet. You ask the agent to get a list of products. You ask it to query the database for the total sales volume and add that to the spreadsheet. The agent uses an MCP tool or CLI to connect to the database. You ask it to pull the top ten grossing products. And then you ask it to notify the right team members by email.
+Personas, skills, context — these are all just text files. Plain text that gets loaded into the AI assistant before you start working. That's it.
 
-Six steps. Six separate instructions. You're essentially acting as the project manager, handing the agent one task at a time and making sure nothing gets missed.
+What you're looking at on this slide is the whole picture. On the left, you have your inputs: a persona file that defines the role, tone, and behavior; a skills file that tells the assistant what it can do; and a context file that carries the background and goals. Those three files flow into the AI assistant, and on the right you get focused responses that stay in scope, a consistent voice that behaves predictably, and a system that's reusable across any AI tool.
 
-Now look at the right side. Working with a persona.
+So why does any of this matter? Because *how you organize those files is how you succeed with AI systems.* That line at the bottom of the slide is the key takeaway.
 
-*"Dana, can you send the top ten grossing products from last month's sales spreadsheet to the marketing team? Add a column for the sales volume for each product."*
+The reason personas work so well is not because of anything clever the AI is doing on its own. It's because we're organizing information the same way we already organize people — by role, by responsibility, by domain. We've been doing that in teams and organizations our entire lives. We already know how to think that way.
 
-That's it. One sentence to a person you know. Dana understands the context, knows the tools, and handles the rest.
-
-That's the difference. With a persona, you're not managing a process — you're delegating to a colleague.
+Personas just let us apply that same mental model to text files.
 
 ---

@@ -1,23 +1,19 @@
-# Slide 4 Narration
+# Slide 3 Narration
 
-<!-- slide: Slide4 -->
+<!-- slide: Slide3 -->
 
 ---
 
-Here's where it starts to feel like a real team.
+Now let's look under the hood at what's actually different between working with context and working with a persona.
 
-Once you have multiple personas set up, they don't just work in isolation — they can hand off to each other. This is what we mean by AI agents collaborating.
+When you're working with context, the model has full access to everything — every skill in the inventory. Summarise, translate, classify, write code, debug, reformat, search, brainstorm — all of it is on the table, every single time you send a message. The model draws from the entire skill library on every turn.
 
-Take a look at this example. We have three personas: Clair in IT Support, Steve the Sysadmin, and Nichole in Onboarding.
+That sounds powerful, and it is. But it also means the model is always making a choice about which skills are relevant. And when your library is large, that's a lot of surface area.
 
-A new employee needs to get set up. Clair is the first point of contact — that's her role. But setting up a login? That's not in Clair's skill set. That belongs to Steve. So Clair routes the request: *"Can you set up my login?"*
+A persona works differently. When you configure a persona, you assign it a specific set of skills — just what that role needs to do its job. A Sales Assistant, for example, gets summarise, draft email, brainstorm, classify, synthesise, and plan. That's the toolkit. Write code, debug, translate, search, reformat, extract — those aren't part of this role, so they're simply not available to it.
 
-Steve picks it up. He handles it — *"Sure"* — does the work — *"Done."*
+This is the key idea: the persona is pre-configured. It doesn't have to decide what it can do — that's already been decided. It just does its job.
 
-Now Clair knows the login is ready. And the next step isn't in Steve's lane either. Nichole handles onboarding notifications. So Clair passes it along: *"Ok I am set up — send the onboarded notification."*
-
-Three personas. One seamless workflow. No one did anything outside their role.
-
-That's the power of the handoff. Each persona knows what it owns, and when something falls outside those boundaries, it moves to the right person automatically. Just like it would on your team.
+The result is a more focused, more predictable collaborator. You know what Dana can do because you defined it. And that's exactly how it works on a real team.
 
 ---
