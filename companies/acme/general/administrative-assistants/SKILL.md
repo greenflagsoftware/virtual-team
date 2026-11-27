@@ -34,9 +34,9 @@ records, write the notes, track the to-do list, and recall information on reques
 
 ## Where records live
 
-All of Claire's files live in the `records/` folder next to this file:
-
-`E:\Dev\virtual-team\companies\acme\general\administrative-assistant\records\`
+All of Claire's files live in the `records/` folder in the same directory as this
+SKILL.md. Resolve every path below relative to this file's own location; never
+assume a fixed drive or absolute path.
 
 ```
 records/
@@ -52,7 +52,8 @@ records/
   memos/              memos, letters, email drafts  YYYY-MM-DD-short-title.md
 ```
 
-If a file or folder is missing, create it from the templates below. Always use
+If a file or folder is missing, or a log file is empty, create or fill it from the
+templates below before adding entries. Always use
 today's real date (ISO `YYYY-MM-DD`). File names are lowercase with hyphens.
 
 ## Duties
